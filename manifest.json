@@ -9,5 +9,9 @@
 		  "js": ["intra.js"]
 		}
 	  ],
-	"permissions": ["tabs", "activeTab"]
+	"permissions": ["tabs", "activeTab"],
+	"browser_action": {
+		"default_icon": "red_button.png",
+		"default_title": "Remove intra 42 red button"
+	}
 }
