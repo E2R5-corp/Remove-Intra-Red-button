@@ -5,10 +5,13 @@
 	"version": "1",
 	"content_scripts": [
 		{
-		  "matches": ["https://*.intra.42.fr/*"],
-		  "js": ["intra.js"]
+			"matches": ["https://*.intra.42.fr/*"],
+			"js": ["intra.js"]
 		}
-	  ],
+	],
+	"background": {
+		"scripts": ["link_help.js"]
+	},
 	"permissions": ["tabs", "activeTab"],
 	"browser_action": {
 		"default_icon": "red_button.png",
