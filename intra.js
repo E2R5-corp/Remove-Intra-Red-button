@@ -1,4 +1,4 @@
 (function () {
-    document.getElementsByClassName("help-button")[0].remove()
-    document.getElementsByClassName("ol-is-watching-you")[0].remove()
+    document.getElementsByClassName("text-danger")[0].remove()
+    document.getElementsByClassName("fal fa-question-circle")[0].remove()
 })();
